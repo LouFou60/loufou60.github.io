@@ -5,9 +5,10 @@ const teamsID = ['15165', '15170', '15173', '15188', '15201', '15204', '15206', 
 $.getJSON('../overwatchLeague.json', function(data){
     console.log('Inside the function')
 
-    for(var key in data){
-        console.log(key)
-        console.log(data[key])
-        console.log(data.teams)
-    }
+    // for(var key in data){
+    //     console.log(key)
+    //     console.log(data[key])
+    // }
+
+    console.log(data.teams)
 })
