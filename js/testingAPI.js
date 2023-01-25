@@ -8,8 +8,8 @@ function createDivTeam(teamData){
 
     div.style.width = "100px";
     div.style.height = "100px";
-    div.style.background = teamData.primaryColor;
-    div.style.color = teamData.secondaryColor;
+    div.style.background = "#" + teamData.primaryColor;
+    div.style.color = "#" + teamData.secondaryColor;
     div.id = "team"
     div.innerHTML = teamData.name;
 
