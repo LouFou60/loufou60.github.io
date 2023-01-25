@@ -8,5 +8,6 @@ $.getJSON('../overwatchLeague.json', function(data){
     for(var key in data){
         console.log(key)
         console.log(data[key])
+        console.log(data[teams])
     }
 })
