@@ -1,0 +1,32 @@
+.theme-light {
+    --color-primary: #ebebeb;
+    --color-secondary: #ECAC43;
+    --color-accent: #ECAC43;
+    --color-background: #FBFBFB;
+    --font-color: #141414;
+}
+
+.theme-dark {
+    --color-primary: #2E2E2E;
+    --color-secondary: #FC7B10;
+    --color-accent: #FC7B10;
+    --color-background: #141414;
+    --font-color: #FBFBFB;
+}
+
+html, body{
+    background-color: var(--color-background);
+}
+
+p, h1, h2, h3, h4, h5, h6, a{
+    color: var(--font-color);
+}
+
+ul {
+    background-color: var(--color-primary);
+}
+
+li a:hover {
+    background-color: var(--color-accent);
+    color: var(--font-color);
+}
