@@ -4,10 +4,13 @@ const teamsID = ['15165', '15170', '15173', '15188', '15201', '15204', '15206', 
 
 function createDivTeam(teamData){
     var div = document.createElement("div");
+    var img = document.createElement("img");
+
     div.style.width = "100px";
     div.style.height = "100px";
     div.style.background = "red";
     div.style.color = "white";
+    img.src = teamData.logo;
     div.innerHTML = teamData.name;
 
     document.getElementById("mainTeam").appendChild(div);
