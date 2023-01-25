@@ -6,10 +6,10 @@ $.getJSON('../overwatchLeague.json', function(data){
     //This is the function
     console.log('Inside the function')
 
-    for (var key in data[teams]) {
+    for (var key in data) {
         console.log(key);
-        console.log(data[teams][key]);
-        console.log(data[teams][key]);
+        console.log(data[key]);
+    }
 });
 
 // for(i = 0; i < teamsID.length; i=i+1){
