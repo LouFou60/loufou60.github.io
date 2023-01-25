@@ -17,8 +17,9 @@ function createDivTeam(teamData){
     img.style.width = "25px";
     img.style.height = "25px";
 
+    div.appendChild(img);
+
     document.getElementById("mainTeam").appendChild(div);
-    document.getElementById("team").appendChild(img);
 }
 
 $.getJSON('../overwatchLeague.json', function(data){
