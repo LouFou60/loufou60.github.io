@@ -6,7 +6,10 @@ $.getJSON('https://us.api.blizzard.com/owl/v1/owl2?access_token=EUlyecleF2k3JU0x
     //This is the function
     console.log('Inside the function')
 
-    console.log(JSON.parse(data))
+    for (var key in data) {
+        console.log(key);
+        console.log(data[key]);
+    }
 });
 
 // for(i = 0; i < teamsID.length; i=i+1){
