@@ -8,15 +8,15 @@ function createDivTeam(teamData){
 
     div.style.width = "100px";
     div.style.height = "100px";
-    div.style.background = "radial-gradient(100% 100% at 100% 0%, #AA8A00 0%, #000000 100%)";
-    div.style.textShadow = "0px 0px 25px #" + teamData.secondaryColor;
+    div.style.background = "radial-gradient(100% 100% at 100% 0%, #" + teamData.primaryColor + "0%, #" + teamData.secondaryColor + "100%)";
+    // div.style.textShadow = "0px 0px 5px #" + teamData.secondaryColor;
     div.id = "team"
     div.innerHTML = teamData.name;
 
     img.src = teamData.logo;
     img.style.width = "25px";
     img.style.height = "25px";
-    img.style.filter = "box-shadow(0px 0px 25px #" + teamData.secondaryColor + ")";
+    // img.style.filter = "box-shadow(0px 0px 5px #" + teamData.secondaryColor + ")";
 
     div.appendChild(img);
 
