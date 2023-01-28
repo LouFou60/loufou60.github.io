@@ -16,6 +16,7 @@ function createDivTeam(teamData){
     img.src = teamData.logo;
     img.style.width = "25px";
     img.style.height = "25px";
+    img.style.filter = "drop-shadow(5px 5px 5px #" + teamData.secondaryColor + ")";
 
     div.appendChild(img);
 
