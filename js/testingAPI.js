@@ -8,7 +8,7 @@ function createDivTeam(teamData){
 
     div.style.width = "100px";
     div.style.height = "100px";
-    div.style.background = "#" + teamData.primaryColor;
+    div.style.background = "radial-gradient(100% 100% at 100% 0%, #AA8A00 0%, #000000 100%)";
     div.style.textShadow = "0px 0px 25px #" + teamData.secondaryColor;
     div.id = "team"
     div.innerHTML = teamData.name;
