@@ -9,14 +9,14 @@ function createDivTeam(teamData){
     div.style.width = "100px";
     div.style.height = "100px";
     div.style.background = "#" + teamData.primaryColor;
-    div.style.textShadow = "0px 0px 5px #" + teamData.secondaryColor;
+    div.style.textShadow = "0px 0px 25px #" + teamData.secondaryColor;
     div.id = "team"
     div.innerHTML = teamData.name;
 
     img.src = teamData.logo;
     img.style.width = "25px";
     img.style.height = "25px";
-    img.style.filter = "drop-shadow(0px 0px 5px #" + teamData.secondaryColor + ")";
+    img.style.filter = "drop-shadow(0px 0px 25px #" + teamData.secondaryColor + ")";
 
     div.appendChild(img);
 
